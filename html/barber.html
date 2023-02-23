@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grizzly Barber Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/barber.css">
+  </head>
+  <body>
+    
+      <nav>
+        <ul>
+          <li><a href="/Html.html">Главная</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Наши работы</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    
+    <script>// Отримати елемент списку
+      var list = document.querySelector('ul');
+      
+      // Додати обробник події "клік" до кожного елементу списку
+      list.querySelectorAll('li').forEach(function(li) {
+        li.addEventListener('click', function() {
+          alert('You clicked on ' + this.textContent);
+        });
+      });</script>
+    <section class="hero-image">
+      <div class="hero-text">
+        <h1>Grizzly Barber Shop</h1>
+        <p>Добро пожаловать в наш барбершоп</p>
+        <a href="#">Записаться на стрижку</a>
+      </div>
+    </section>
+    <section class="services">
+      <h2>Наши услуги</h2>
+      <ul>
+        <li>Стрижка</li>
+        <li>Бритье</li>
+        <li>Окрашивание</li>
+        <li>Уход за бородой</li>
+      </ul>
+    </section>
+    <section class="gallery">
+      <h2>Наши работы</h2>
+      <div class="image-grid">
+        <img src="/Photos/6a8e009bca3c4049bf83709ec9b452-tkb-renton-hassan-biz-photo-3d97993d906e49bc9d92fdc27b443e-booksy.jpeg" alt="Work 1">
+        <img src="/Photos/772c2270096b4288b3fa46a3305b8c-hassan-biz-photo-70ccb7ffef634273a5531f3b52f736-booksy.jpeg" alt="Work 2">
+        <img src="/Photos/886a3aaf97c2456ab1d11549525d6b-finito-hair-studio-barber-hass-biz-photo-1b44652f18bc4507984a49a92ebad3-booksy.jpeg" alt="Work 3">
+        <img src="/Photos/a10399badb6642d881e0bf4f624416-finito-hair-studio-barber-hass-biz-photo-4ac9e11452434ed387d0cbe6405b41-booksy.jpeg" alt="Work 4">
+        <img src="/Photos/c09a00902e5c49cea5c05aa4294bbf-hassan-biz-photo-fb129787714445cea1a2f54bfe66d7-booksy.jpeg" alt="Work 5">
+        <img src="/Photos/2f7d3171e1a748cba05fa58e61d56f-hassan-biz-photo-0186300b2e4f42dc84045c8440bd65-booksy.jpeg" alt="Work 6">
+      </div>
+    </section>
+    <section class="contact">
+      <h2>Контакты</h2>
+      <p>Адрес: ул. Ленина, 1</p>
+      <p>Телефон: 8-800-555-35-35</p>
+      <p>Email: info@grizzlybarbershop.com</p>
+    </section>
+    <footer>
+     <h1> <p>&copy; 2023 Grizzly Barber Shop</p></h1> 
+     
+    </footer>
+  </body>
+</html>
