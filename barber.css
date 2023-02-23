@@ -1,0 +1,170 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Навігаційне меню */
+nav {
+  background-color: #2f1414b6;
+
+}
+
+nav ul {
+ 
+  list-style: none;
+  margin: 10;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:first baseline
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+/* Заголовок */
+header {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  text-align: center;
+}
+
+/* Про нас */
+.about {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.about h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Послуги */
+.services {
+  padding: 50px 0;
+}
+
+.services h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services li {
+  margin: 0 30px;
+}
+
+.services li img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.services li p {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Контакти */
+.contact {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.contact h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+  width: 200px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Підвал */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-family: Georgia, Arial, sans-serif;
+  
+} 
